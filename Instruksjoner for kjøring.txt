@@ -1,0 +1,9 @@
+Kontakt app som kommuniserer med softrig api'et. React på frontend og Nodejs på backend.
+kjør "npm install" og "npm start" i henholdsvis ./unimicro for react del og i ./node-functions/index.js
+for node del. client id og secret er fjernet siden det ligger offentlig på git nå. har sendt dette til Jon Terje
+det hører til på linje 45 og 46 under index.js på node delen.
+
+På react delen har jeg brukt en "Template", koden jeg har laget ligger under src/components/Softrig
+Siden det ikke er noe tilhørende DB til, så blir token lagt til localstorage.
+For å oppnå kontakt med api'et må man første kjøre "koble til softrig", etter det får man opp kontakter i tabellen, 
+og mulighet for å lage nye, slette og redigere. 
